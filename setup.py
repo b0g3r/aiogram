@@ -73,5 +73,8 @@ setup(
             'ujson>=1.35',
         ],
     },
+    package_data={
+        ['aiogram': 'py.typed']
+    },
     include_package_data=False,
 )
